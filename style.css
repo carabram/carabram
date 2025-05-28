@@ -1,1 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+.site-header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.site-header nav {
+  margin-top: 10px;
+}
+
+.site-header a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+#hero {
+  background-color: #eee;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#portfolio {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+#contact {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
 
